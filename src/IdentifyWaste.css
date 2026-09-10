@@ -66,6 +66,13 @@
   padding: 8px;
   display: flex;
   box-shadow: 0 15px 35px rgba(40, 80, 50, 0.08);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.search-box:focus-within {
+  border-color: #9bc9a8;
+  box-shadow: 0 18px 38px rgba(40, 80, 50, 0.12), 0 0 0 4px rgba(85, 166, 109, 0.1);
+  transform: translateY(-2px);
 }
 
 .search-box input {
@@ -84,6 +91,14 @@
   border-radius: 10px;
   font-weight: 600;
   cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.search-box button:hover,
+.search-box button:focus-visible {
+  background: #176e39;
+  outline: none;
+  transform: translateY(-1px);
 }
 
 .suggestions {

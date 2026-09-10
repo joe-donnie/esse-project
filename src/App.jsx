@@ -124,6 +124,22 @@ function Home() {
         <div className="section-heading">
           <p className="section-label">WHAT BEYONDBIN CAN DO</p>
 
+          <div className="impact-note">
+            <span className="impact-icon" aria-hidden="true">✦</span>
+            <div className="impact-item">
+              <strong>The challenge</strong>
+              <p>Everyday waste is often sorted incorrectly, sending useful materials to landfill.</p>
+            </div>
+            <div className="impact-item">
+              <strong>Who it helps</strong>
+              <p>Simple guidance for households, students, and anyone making better daily choices.</p>
+            </div>
+            <div className="impact-item">
+              <strong>The result</strong>
+              <p>More materials recovered, less waste wasted, and small choices that add up.</p>
+            </div>
+          </div>
+
           <h2>
             Waste management made
             <span> simple.</span>
