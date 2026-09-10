@@ -168,17 +168,15 @@ function AddToBin() {
             </div>
           )}
 
-          {!waste && (
-            <div className="saved-bin-heading">
-              <div>
-                <span>MY SAVED ITEMS</span>
-                <strong>{savedWaste.length} {savedWaste.length === 1 ? "item" : "items"}</strong>
-              </div>
-              <button className="clear-bin-button" type="button" onClick={handleClearBin}>
-                Clear bin
-              </button>
+          <div className="saved-bin-heading">
+            <div>
+              <span>MY SAVED ITEMS</span>
+              <strong>{savedWaste.length} {savedWaste.length === 1 ? "item" : "items"}</strong>
             </div>
-          )}
+            <button className="clear-bin-button" type="button" onClick={handleClearBin}>
+              Clear bin
+            </button>
+          </div>
 
           <div className={`bin-category-grid ${visibleWaste.length === 1 ? "single-category" : "saved-category-grid"}`}>
             {visibleWaste.map((item) => {
