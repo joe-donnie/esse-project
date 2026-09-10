@@ -401,8 +401,24 @@
 }
 
 @media (max-width: 700px) {
+  .identify-content {
+    padding: 58px 18px 70px;
+  }
+
   .identify-content h1 {
     font-size: 38px;
+  }
+
+  .page-description {
+    font-size: 15px;
+  }
+
+  .identify-navbar {
+    padding: 0 5%;
+  }
+
+  .identify-navbar > a:last-child {
+    font-size: 12px;
   }
 
   .search-box {
@@ -433,5 +449,19 @@
 
   .waste-items {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 380px) {
+  .identify-content h1 {
+    font-size: 34px;
+  }
+
+  .waste-items {
+    gap: 10px;
+  }
+
+  .waste-item {
+    padding: 20px 10px;
   }
 }

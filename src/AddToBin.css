@@ -875,6 +875,20 @@
   }
 
   .selected-waste-chip {
+    width: 100%;
+    justify-content: flex-start;
+    border-radius: 16px;
+  }
+
+  .destination-note {
+    align-items: flex-start;
+  }
+
+  .destination-note p {
+    font-size: 12px;
+  }
+
+  .selected-waste-chip {
     border-radius: 18px;
     flex-wrap: wrap;
     justify-content: center;

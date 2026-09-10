@@ -718,7 +718,7 @@ a {
   }
 
   .hero {
-    padding: 60px 5%;
+    padding: 58px 5% 70px;
   }
 
   .hero h1 {
@@ -739,6 +739,10 @@ a {
 
   .bin-card {
     width: 100%;
+  }
+
+  .floating-icon {
+    display: none;
   }
 
   .feature-grid,
@@ -777,6 +781,36 @@ a {
 
   .footer {
     padding: 35px 5%;
+  }
+}
+
+@media (max-width: 420px) {
+  .logo {
+    gap: 7px;
+    font-size: 19px;
+  }
+
+  .logo-icon {
+    width: 34px;
+    height: 34px;
+    font-size: 19px;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+  }
+
+  .hero-content > p {
+    font-size: 15px;
+  }
+
+  .hero-stats {
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .hero-stats strong {
+    font-size: 21px;
   }
 }
 

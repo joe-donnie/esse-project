@@ -277,6 +277,7 @@
 
   .recycle-card {
     min-height: 330px;
+    padding: 19px;
   }
 
   .recycle-bottom-note {
@@ -287,5 +288,24 @@
   .recycle-bottom-note a {
     width: 100%;
     margin-left: 45px;
+  }
+}
+
+@media (max-width: 380px) {
+  .recycle-content {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .recycle-intro h1 {
+    font-size: 35px;
+  }
+
+  .recycle-intro > p:last-child {
+    font-size: 14px;
+  }
+
+  .recycle-card h2 {
+    font-size: 18px;
   }
 }
